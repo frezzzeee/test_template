@@ -1,0 +1,192 @@
+@charset "utf-8";
+
+* {
+    margin:  0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+#wrapper {
+    min-width:1000px;
+}
+.header {
+    background-image: url(../img/HeaderBackground.jpg);
+    background-position: 50%;
+    color: #ffffff;
+    height:850px;
+}
+.header .logo {
+    position: relative;
+    margin-left:10%;
+    height:78px;
+    width: 78px;
+}
+.header .uplogo {
+    font-size:30px;
+    background:#11749e;
+    position: absolute;
+    padding:16px 14px;
+    text-transform: uppercase;
+    
+}
+.header .shadow {
+    background:#fff;
+    position: absolute;
+    bottom:1px;
+    right:1px;
+    width:68px;
+    height:68px;
+
+}
+nav {
+    margin-right:3%;
+}
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+nav .menuLink {
+   margin-right:40px;
+   padding-bottom: 44px;
+}
+nav .icons .menuLink {
+    margin-right:10px;
+}
+.menuLink:hover {
+    border-bottom: 5px solid #11749e;
+}
+.logo-nav-container {
+    height:118px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:2px solid rgba(255, 255,255, 0.5);
+}
+.companyName, .scrollDown {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+ .companyName {
+    font-size:152px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding:190px 0 140px;
+}
+ .companyName .annotation {
+    font-size:25px;
+    font-weight: 300;
+    letter-spacing: 15px;
+    color:#11749e;
+}
+ .scrollDown {
+    font-size:12px;
+    font-weight: 700;
+}
+ .scrollDown .angle-down-circle {
+    font-size:25px;
+    margin: 20px auto 0;
+    border:1px solid #fff;
+    border-radius: 25px;
+    padding-top:10px;
+    height:40px;
+    width:50px;
+}
+
+/*----------------------- We awesome agency ------------------------------ */
+
+.section_1 {
+    background-color:#11749e;
+    width: 100%;
+    padding-bottom: 5%;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+  }
+.section_1_firstBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:369px;
+}
+.section_1 .bigW {
+    font-family: sans-serif;
+    font-size:230px;
+    font-weight: bold;
+    opacity: 0.2;
+    position: absolute;
+    top:50px;
+    width:100%;
+}
+.section_1 h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.section_1_secondBlock {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.section_1_secondBlock .features {
+    min-width:200px;
+    width:20%;
+}
+.section_1_secondBlock .features i {
+    background: rgba(255, 255,255, 0.2);
+    border-radius: 50px;
+    width:100px;
+    padding:34px 0;
+}
+.section_1_secondBlock .features h3 {
+    text-transform: uppercase;
+    margin:20px 0 30px;
+}
+.section_1_secondBlock .features p {
+    font-size:15px;
+}
+
+/*----------------------- AKITA ------------------------------ */
+
+.section_2 {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.section_2 .akitaText, .akitaImg {
+    min-width: 350px;
+    width:36%;
+    padding:80px 7%;
+}
+.section_2 .firstImg {
+    background-image: url(../img/table.jpg);
+    background-position-y: 50%;
+}
+.section_2 .secondImg {
+    background-image: url(../img/akitaman.jpg);
+    background-position-y: 50%;
+}
+.section_2 .akitaText .date {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section_2 .akitaText p {
+    font-size:15px;
+    padding:10px 0;
+}
+.section_2 .akitaText h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.section_2 .firstText {
+    background:#222222;
+    color:#ffffff;
+}
+.section_2 .secondText {
+    background:#f3f3f3;
+}
+
+  
+  
